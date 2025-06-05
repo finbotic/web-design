@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>
+            Planetary Travel blog
+        </title>
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+    </head>
+
+    <style>
+        main {
+            background-color: lightgray;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 1px;
+        }
+        header {
+            text-align: center;
+            font-family: serif;
+            font-weight: normal;
+            text-transform: normal;            
+            top: 30px;
+            background-color: cornflowerblue;
+            bottom: 10px;
+        }
+        h2 {
+            text-align: center;
+            font-family: serif;
+            font-weight: normal;
+            text-transform: normal;  
+            color: #aaa;          
+            top: 30px;
+            background-color: #333;
+            bottom: 10px;
+        }
+        * {
+            box-sizing: border-box;
+        }
+        .column {
+            float:left;
+            width: 50%;
+            padding: 10px;
+            height: max-content;
+            text-align: center;
+        }
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    </style>
+
+    <body>
+        <header>
+            <h1>Planetary Travel Blog</h1>
+            <a href="main.html"><h2>Travel Blog Overview</h2></a>
+        </header>
+
+        <div class="row">
+            <div class="column" style="background-color:#bbb;">
+                <h2>Inner Planets</h2>
+                    <img src="images/base/Mercury.PNG" alt="mercury" style="float:center;">
+                    <a href="innerplanets/mercury.html"><h3>Mercury</h3></a>
+                    <hr>
+                    <img src="images/base/Venus.PNG" alt="venus" style="float:center;">
+                    <a href="innerplanets/venus.html"><h3>Venus</h3></a>
+                    <hr>
+                    <img src="images/base/Mars.PNG" alt="mars" style="float:center;">
+                    <a href="innerplanets/mars/mars.html"><h3>Mars</h3></a>
+                    <a href="innerplanets/mars/phobos.html"><h5>Phobos</h5></a>
+                    <a href="innerplanets/mars/deimos.html"><h5>Deimos</h5></a>
+                    <hr>
+            </div>
+            <div class="column" style="background-color:#aaa;">
+                <h2>Column 2</h2>
+                    <img src="images/base/Jupiter.PNG" alt="jupiter" style="float:center;">
+                    <h4>Jupiter</h4>
+                    <hr>
+                    <img src="images/base/Saturn.PNG" alt="saturn" style="float:center;">
+                    <h4>Saturn</h4>
+                    <hr>
+                    <img src="images/base/Ouranos.PNG" alt="ouranos" style="float:center;">
+                    <h4>Ouranos</h4>
+                    <hr>
+                    <img src="images/base/Neptune.PNG" alt="neptune" style="float:center;">
+                    <h4>Neptune</h4>
+                    <hr>
+            </div>
+        </div>
+
+    </body>
+</html>
