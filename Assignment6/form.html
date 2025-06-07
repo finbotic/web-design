@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>
+            Kids Camp
+        </title>
+    </head>
+
+    <style>
+        header {
+            margin: 1%;
+            background-color: RGBA(0,0,0,50%);
+            line-height: 2%
+        }
+        header h1 {
+            padding: 1%;
+            font-weight: bold;
+            text-align: center;
+            color: RGBA(255,255,255,100%);
+            font-size: 22pt;
+            font-family:'Courier New', Courier, monospace
+        }
+        header h2 {
+            padding: 1%;
+            font-weight: bold;
+            text-align: center;
+            color: RGBA(255,255,255,100%);
+            font-size: 16pt;
+            font-family:'Courier New', Courier, monospace
+        }
+        body {
+            background-image: url("images/europa_artist_concept_2048x1152.jpeg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            text-align: left;
+        }
+        div.transbox {
+            margin: 2%;
+            background-color: RGBA(0,0,0,50%);
+            line-height: 20px;
+        }
+        div.transbox p {
+            padding: 20px;
+            font-weight: bold;
+            text-align: left;
+            color: RGBA(255,255,255,100%);
+            font-size: 18pt;
+            line-height: 2px;
+        }
+        div.transbox table form {
+            padding: 20px;
+            font-weight: bold;
+            text-align: left;
+            color: RGBA(255,255,255,100%);
+            font-size: 18pt;
+            line-height: 20px;
+        }
+        div.transbox form table tr th.label{
+            font-size: 12pt;
+            width:130pt;
+            text-align: right;
+        }
+        div.transbox form table tr th{
+            height:30pt;
+
+        }
+        div.transbox form table tr th.seperator{
+            font-size: 12pt;
+            width:20px;
+            text-align: center;
+
+        }
+        
+        div.transbox table form label tr th.input {
+            font-size: 12pt;
+        }
+        div.transbox table form label p{
+            line-height: 2px;
+            padding: 2px;
+            font-size: 16pt;
+        }
+        div.transbox table{
+            width: 50%;
+            font-weight: bold;
+            text-align: left;
+            background-color: RGBA(0,0,0,70%);
+            font-size: 12pt;
+            color:white;
+        }
+        aside {
+            font-weight: italic;
+            text-align: left;
+            color: RGBA(130,130,130,100%);
+            font-size: 8pt;
+            padding-left: 2%;
+            padding-right: 2%;
+            padding-bottom: 2%;
+        }
+    </style>
+    <body>
+
+        <header>
+            <h1>
+                Naval Blacksite Aquilo - Summer Experience Application
+            </h1>
+        <h2>SEA Form</h2>
+        </header>
+        <div class="transbox">
+            <p>
+                Please have a parent, or Legal guardian fill out the following SEA form.
+            </p>
+            <hr>
+            <form>
+                <table>
+                <tr>
+                    <th class="label">
+                        <label for="form-guard_first_name">Name of legal guardian </label>
+                    </th>
+                    <th class="seperator">
+                        <label> : </label>
+                    </th>
+                    <th class="input">
+                        <input type="text" name="guard_first_name" placeholder="Guardian's First name"></input>
+                        <input type="text" name="guard_last_name" placeholder="Guardian's Last name"></input>
+                    </th>
+                </tr>
+                <tr>
+                    <th class="label">
+                        <label for="form-guard_email">Email of legal guardian</label>
+                    </th>
+                    <th class="seperator">
+                        <label> : </label>
+                    </th>
+                    <th class="input">
+                        <input type="email" name="guard_email" placeholder="Guardian's Email address"></input>
+                    </th>
+                </tr>
+                <br>
+                <br>
+                </table>
+                <p>For the youth:</p>
+                <table>
+                <tr>
+                    <th class="label">
+                        <label for="form-youth_first_name">Name of intrepid youth </label>
+                    </th>
+                    <th class="seperator">
+                        <label>: </label>
+                    </th>
+                    <th class="input">
+                        <input type="text" name="youth_first_name" placeholder="Youth's First name"></input>
+                        <input type="text" name="youth_last_name" placeholder="Youth's Last name"></input>
+                    </th>
+                </tr>
+                <tr>
+                    <th class="label">
+                        <label for="form-youth_age">Age of intrepid youth </label>
+                    </th>
+                    <th class="seperator">
+                        <label>: </label>
+                    </th>
+                    <th class="input">
+                        <select name="youth_age">
+                            <option>10</option>
+                            <option>11</option>
+                            <option>12</option>
+                            <option>13</option>
+                        </select>
+                    </th>
+                </tr>
+                <tr>
+                    <th class="label">
+                        <label for="form-youth_age">Birthday of youth </label>
+                    </th>
+                    <th class="seperator">
+                        <label>: </label>
+                    </th>
+                    <th class="input">
+                        <input type="date"></input>
+                    </th>
+                </tr>
+                <tr>
+                    <th class="label">
+                        <label for="form-uniform_size">Uniform size </label>
+                    </th>
+                    <th class="seperator">
+                        <label>: </label>
+                    </th>
+                    <th class="input">
+                        <input type="radio" name="uniform_size" value="Extra Small">Extra small (XS)</input><br>
+                        <input type="radio" name="uniform_size" value="Small" checked>Small (S)</input><br>
+                        <input type="radio" name="uniform_size" value="Medium">Medium (M)</input><br>
+                        <input type="radio" name="uniform_size" value="Large">Large (L)</input><br>
+                        <input type="radio" name="uniform_size" value="Extra Large">Extra Large (XL)</input><br>
+                        <input type="radio" name="uniform_size" value="Extra Extra Large">Extra Extra Large (XXL)</input><br>
+                        <input type="radio" name="uniform_size" value="Extra Extra Extra Large">Extra Extra Extra Large (XXXL)</input><br>
+                    </th>
+                </tr>
+                <tr>
+                    <th class="label">
+                        <label for="form-interests">Activities that may interest the youth </label>
+                    </th>
+                    <th class="seperator">
+                        <label>: </label>
+                    </th>
+                    <th class="input">
+                        <input type="checkbox" name="interests" value="tactics">Special Operations (Spec Ops) Tactical procedure</input><br>
+                        <input type="checkbox" name="interests" value="opsec">Operational Security (OPSEC) procedures</input><br>
+                        <input type="checkbox" name="interests" value="point_defense">Emplacement and Artillery design and engineering (Point Defense)</input><br>
+                        <input type="checkbox" name="interests" value="habitat_design">Habitation and Life support module design</input><br>
+                        <input type="checkbox" name="interests" value="weapons_design">Weaponry and equipment design and engineering</input><br>
+                        <input type="checkbox" name="interests" value="outcom">State of Jovian space and the Outer Solar Strata Command (OUTCOM)</input><br>
+                    </th>
+                </tr>
+                <tr>
+                    <th class="label">
+                        <label for="form-youth_age">Photo of youth </label>
+                    </th>
+                    <th class="seperator">
+                        <label>: </label>
+                    </th>
+                    <th class="input">
+                        <input type="file"></input>
+                    </th>
+                </tr>
+                <tr>
+                    <th class="label">
+                        <label for="form-youth_age">If the youth is inflicted with any mental or physical chronic conditions, write down all that apply here</label>
+                    </th>
+                    <th class="seperator">
+                        <label>: </label>
+                    </th>
+                    <th class="input">
+                        <textarea name="illness_declaration" rows="5" cols="50" placeholder="Write any relevant conditions, if any are present."></textarea>
+                    </th>
+                </tr>
+                <tr>
+                    <th class="label">
+                    </th>
+                    <th class="seperator">
+                    </th>
+                    <th class="input">
+                        <a href="thanks.html"><input type="submit" value="Submit"></input></a>
+                    </th>
+                </tr>
+            </table>
+
+            </form>
+            
+        </div>
+    </body>
+</html>
