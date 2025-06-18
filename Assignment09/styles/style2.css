@@ -1,0 +1,49 @@
+html {
+    background-image: url("../images/style2/background.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+h1 {
+    text-align: center;
+}
+* {
+
+    font-family: 'Copperplate','Papyrus','fantasy';
+}
+div.transbox {
+    background-color: RGBA(0,0,0, 50%);
+}
+hr {
+    display:none;
+}
+div.transbox table {
+    background-color: RGBA(0,0,0, 0%);
+    float: center;
+}
+div.transbox table tr th {
+    background-color: RGBA(0,0,0, 50%);
+}
+div.transbox table tr th.closed {
+    color: RGBA(200,0,0, 100%);
+    background-color: RGBA(0,0,0, 50%);
+    border: red 1px solid
+}
+div.transbox table tr th.open {
+    color: RGBA(0,200,0, 100%);
+    background-color: RGBA(0,0,0, 50%);
+    border: lime 1px solid
+}
+div.transbox table tr th.hidden {
+    background-color: RGBA(0,0,0, 0%);
+}
+div.transbox {
+    color: white;
+}
+ul {
+    list-style-image: url("../images/style2/bullet-point.png");
+}
+ul.italics li em {
+    font-size: 10pt;
+    color:rgb(185, 185, 185);
+}

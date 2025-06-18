@@ -1,0 +1,45 @@
+html {
+    background-image: url("../images/style1/eldritchstylewallpaper.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+* {
+
+    font-family: 'Copperplate','Papyrus','fantasy';
+}
+h1, h2 {
+    text-align: center;
+}
+hr {
+    color: rgb(133, 133, 133)
+}
+div.transbox {
+    background-color: RGBA(0,0,0, 50%);
+        padding: 20px;
+}
+div.transbox table {
+    background-color: RGBA(0,0,0, 0%);
+}
+div.transbox table tr th {
+    background-color: RGBA(0,0,0, 50%);
+}
+div.transbox table tr th.closed {
+    background-color: RGBA(90,0,0, 50%);
+}
+div.transbox table tr th.open {
+    background-color: RGBA(0,90,0, 50%);
+}
+div.transbox table tr th.hidden {
+    background-color: RGBA(0,0,0, 0%);
+}
+div.transbox {
+    color: white;
+}
+ul {
+    list-style-image: url("../images/style1/bullet-point.png");
+}
+ul.italics li em {
+    font-size: 10pt;
+    color:rgb(133, 133, 133);
+}
